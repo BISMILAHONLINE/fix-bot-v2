@@ -2,19 +2,15 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://youtube.com/channel/UCOAloj1gW4OVGMtVDnNaq5w*
+let str = `*https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis*
 
-Pengen mentahan nya ?
-Nih ada santai bro....
-https://github.com/XyzenzKannaV1
+Mau Sc Nya Kak? JOIN LINK DI BAWAH 
+https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis
 
-Mau Yang No Error Script Bot nya, Gas Cek Video YT :
-https://youtube.com/channel/UCOAloj1gW4OVGMtVDnNaq5w
+Kalo Mau Beli Yang Udah Di Recode Chat Owner Aja
+wa.me/6288980870067
+Jangan Spam Yah!!
 
-Pengen yang udah di recode oleh owner?
-Script bot ini dijual bila kalian mau bisa chat owner
-
-wa.me/6288980870067`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
