@@ -54,12 +54,12 @@ https://github.com/Aiinne
 *❉ Papah-Chan:*
 https://github.com/FahriAdison
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
-*❉ ImYanXiao:*
-https://github.com/ImYanXiao
+*❉ Kanna:*
+https://github.com/XyzenzKannaV1
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
-*❉ WH MODS DEV:*
+*❉ Swift Cons IQ:*
 *❉ Kannachan:*
-*❉ Papah-Chan:*
+*❉ SabilOfc:*
 *❉ Johannes:*
 *❉ Krisna:*
 *❉ Rlxfly:*
@@ -69,7 +69,7 @@ conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { extern
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
     description: "https://Instagram.com/_ctzhid", 
-    title: 'WH-MODS-DEV-MultiDevice',
+    title: 'Siesta - Multi Device',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
